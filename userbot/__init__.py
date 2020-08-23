@@ -253,8 +253,8 @@ with bot:
         quit(1)
 
 # Userbot ver/tag/codename
-OUBnew_VER = "Athanasia"
-CODENAME = "Athy @ee_Kucing"
+OUBnew_VER = "4.5"
+CODENAME = "Bakso Mercon"
 
 # Global Variables
 COUNT_MSG = 0
