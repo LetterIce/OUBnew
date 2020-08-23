@@ -74,11 +74,11 @@ async def set_afk(afk_e):
     if string:
         AFKREASON = string
         await afk_e.edit(
-            f"__Going AFK!__\
-        \nReason: `{string}`"
+            f"__Ojo di chat!__\
+        \nPerkoro: `{string}`"
         )
     else:
-        await afk_e.edit("__Going AFK!__")
+        await afk_e.edit("__Ojo di chat!__")
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nYou went AFK!")
     ISAFK = True
@@ -101,7 +101,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond("I'm no longer AFK.")
+        msg = await notafk.respond("Bos e wes onlen")
         time.sleep(3)
         await msg.delete()
         if BOTLOG:
